@@ -1,7 +1,8 @@
 = Vinyl Shelf Finder
 
 == About
-*Vinyltin* - is a app that manages a Discogs user records collection and helps locate them in shelving cabinets - provided a certain ordering is maintained.
+All original credit to https://github.com/valentingalea/vinyl-shelf-finder ! 
+This fork focuses on tweaking the scrobbling interface and removing the (very cool) raspi and laser, resulting in a simple record scrobbler integrating one's Discogs collection and last.fm accounts.
 
 == Features
 WIP and very primitive
@@ -10,7 +11,7 @@ WIP and very primitive
 - custom searches in a Discogs collection
 - cover art display with optional image caching
 - Last.fm integration (as well as local database backup)
-- interfaces with a hardware pan-tilt laser pointer
+- ~~interfaces with a hardware pan-tilt laser pointer~~
 
 == Installation
 DISCLAMER: for the brave, no guarantees
@@ -60,17 +61,7 @@ Navigate with any browser to
 
 `http://localhost:8080`
 
-== Hardware
-
-The app can interact with a Raspberry Pi that has mounted a pan-tilt with a laser pointer
-
-- https://shop.pimoroni.com/products/pan-tilt-hat[pan-tilt HAT module]
-- http://www.ebay.co.uk/itm/650nm-Laser-sensor-Module-6mm-5V-5mW-Red-Laser-Dot-Diode-Arduino-Raspberry-Pi/181973250215[laser pointer module]
-
 == Documentation
 
 There is a https://valentingalea.github.io/vinyl-shelf-finder/[micro-website] setup via the `docs` folder
 
-== Contact
-
-Reach me on https://twitter.com/valentin_galea[twitter]
