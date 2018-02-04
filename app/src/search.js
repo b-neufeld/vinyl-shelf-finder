@@ -1,4 +1,5 @@
 'use strict';
+//BN: see http://fusejs.io/
 
 var searcher = module.exports = {};
 
