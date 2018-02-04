@@ -1,4 +1,4 @@
-= Vinyl Shelf Finder
+= Vinyl Record Scrobbler
 
 == About
 All original credit to https://github.com/valentingalea/vinyl-shelf-finder ! 
