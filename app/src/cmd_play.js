@@ -10,7 +10,7 @@ module.exports = function(req, res) {
             return;
         }
 
-        // from https://stackoverflow.com/a/17098372/5760
+        // from https://stackoverflow.com/a/17098372/5760 get track length in seconds
         var parse_duration = function (str) {
             var parts = str.match(/^(\d*:)?(\d*)$/);
             if (parts) {
